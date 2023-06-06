@@ -1,0 +1,30 @@
+.amarillo{
+    color: #FFF500;
+}
+
+.blanco{
+    color: #FFFFFF;
+}
+.wrapper{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.col{
+    background-color:#5F05B9
+}
+.pop{
+    font-size: 70px;
+}
+.pup{
+    font-size: 40px;
+}
+.cont{
+    font-size: 20px;
+}
+.a, .a:link, .a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.a:hover {
+    color: #FFF500;
+}

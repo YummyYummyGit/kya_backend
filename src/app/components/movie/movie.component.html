@@ -1,0 +1,26 @@
+<div class="row">
+    <div class="col l12 push-l1"> <h6 class="blanco"><a class="a" href="#">Home</a> > Name of actor </h6></div>
+ </div>
+ 
+<div class="row">
+    <div class="col l12 push-l1"><b><h1 class="blanco">Name of actor</h1></b></div>
+    <div class="col l12 push-l1"><b><h4 class="blanco">you searched for...</h4></b></div>
+
+    <div class="col l1 push-l1"><b><h3 class="amarillo">filtro1,</h3></b></div>
+    <div class="col l1 push-l1"><b><h3 class="blanco">but</h3></b></div>
+    <div class="col l1 push-l1"><b><h3 class="amarillo">filtro2</h3></b></div>
+    <div class="col l1 push-l1"><b><h3 class="amarillo">filtro3</h3></b></div>
+   
+</div>
+
+
+<div class="row">
+    <div class="col l10">
+        <app-movie-list></app-movie-list>
+        <app-movie-list></app-movie-list>
+        <app-movie-list></app-movie-list>
+        <app-movie-list  *ngFor="let Movie of movieService.movies" [data] = "Movie"></app-movie-list>
+    </div>
+</div>
+
+         

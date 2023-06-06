@@ -1,0 +1,14 @@
+.amarillo{
+    color: #FFF500;
+}
+
+.blanco{
+    color: #FFFFFF;
+}
+.a, .a:link, .a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.a:hover {
+    color: #FFF500;
+}
